@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>drop down</title>
+</head>
+<style>
+	.dropdown{
+		height: 150px;
+		width: 110px;
+	}
+	.btn{
+		width: 100%;
+		height: 40px;
+		background: green;
+		font-size: 15px;
+		color: white;
+	}
+	.content{
+		background: yellowgreen;
+		width: 110px;
+		display: none;
+	}
+	.content a{
+		text-decoration: none;
+		display: block;
+		padding: 10px;
+	}
+	.dropdown:hover .content{
+		display: block;
+	}
+	a:hover {
+		color: white;
+	}
+</style>
+<body>
+
+	<div class="dropdown">
+		<button class="btn"> Services</button>
+		<div class="content">
+			<a href="">Online Services</a>
+			<a href="">Offline Services</a>
+		</div>
+	</div>
+
+</body>
+</html>

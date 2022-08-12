@@ -1,0 +1,15 @@
+header{
+	height: 100px;
+	width: 100%;
+	background: orange;
+}
+aside{
+	height: 100px;
+	width: 100%;
+	background: pink;	
+}
+article{
+		height: 100px;
+	width: 100%;
+	background: coral;
+}

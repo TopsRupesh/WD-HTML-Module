@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>scrollbar</title>
+	<style type="text/css">
+		
+		div{
+			height: 200px;
+			width: 200px;
+			border: 1px solid black;
+			overflow: auto;
+		}
+		div::-webkit-scrollbar
+		{
+			background: red;
+			/*width: 30px;*/
+			
+		}
+		div::-webkit-scrollbar-track{
+			background: greenyellow;
+			border-radius: 40%;
+		}
+		div::-webkit-scrollbar-thumb{
+			background: blue;
+			border-radius: 50%;
+
+		}
+		div::-webkit-scrollbar-corner{
+			background: greenyellow;
+		}
+		/*
+		div::-webkit-scrollbar-track{
+			background: yellow;
+			width: 20px;
+			border-radius: 30%;
+		}
+		div::-webkit-scrollbar-thumb{
+				background: blue;
+				/*width: 10px;*/
+				/*border-radius: 10%;*/
+		}*/
+		/*.test{
+			height: 200px;
+			width: 200px;
+			border: 1px solid black;
+			overflow: auto;
+		}
+		.test::-webkit-scrollbar{
+			width: 20px;
+			/*background: gray;*/
+		}
+		/*.test::-webkit-scrollbar-track
+		{
+			background: yellow;
+			border-radius: 10px;
+		}*/
+		/*.test::-webkit-scrollbar-thumb{*/
+			/*background: linear-gradient(red,yellow);*/
+			/*background: blue;*/
+			/*border-radius: 10px;*/
+		/*}*/
+		/*.test::-webkit-scrollbar-corner
+		{
+			/*background: linear-gradient(red,yellow);*/
+			/*background: red;*/
+
+		/*}*/
+
+	</style>
+</head>
+<body>
+
+	<!-- pseudo elements
+
+	::-webkit-scrollbar
+	::-webkit-scrollbar-track
+	::-webkit-scrollbar-thumb
+	::-webkit-scrollbar-corner
+ -->
+<!-- 
+		<div class="test">
+			<img src="emj.gif">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+ -->
+ <div>
+ 	<img src="emj.gif">
+ 	<p>
+ 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ 	</p>
+ </div>
+
+
+</body>
+</html>
