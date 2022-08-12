@@ -1,0 +1,88 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+header{
+	height: 100px;
+	background: red;
+	display: flex;
+}
+.blank{
+	width: 16.66%;
+	/*float: left;*/
+	border-right: 2px solid black;
+	height: 100px;
+	text-align: center;
+
+	padding: 30px;
+
+}
+.singIn{
+	width: 16.66%;
+	/*float: left;*/
+	border-right: 2px solid black;
+	height: 100px;
+	text-align: center;
+	padding: 30px;
+
+}
+.singUp{
+	width: 16.66%;
+	/*float: left;*/
+	border-right: 2px solid black;
+	height: 100px;
+	text-align: center;
+	padding: 30px;
+
+}
+.call{
+	width: 16.66%;
+	/*float: left;*/
+	border-right: 2px solid black;
+	height: 100px;	
+	text-align: center;
+	padding: 30px;
+
+}
+.email{
+	width: 16.66%;
+	/*float: left;*/
+	border-right: 2px solid black;
+	height: 100px;
+	text-align: center;
+	padding: 30px;
+
+}
+.blank1{
+	width: 16.66%;
+	/*float: left;*/
+	border-right: 2px solid black;
+	height: 100px;
+	text-align: center;
+	padding: 30px;
+	font-size: 18px;
+	color: white;
+	font-style: italic;
+	font-family: arial;
+	font-weight: 1000;
+
+}
+
+/*
+
+.a{
+	background: yellow;
+	height: 100px;
+}
+.b
+{
+	background: blue;
+	height: 100px;
+}
+footer{
+	background: green;
+	height: 100px;
+}*/
