@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<title>form events</title>
+</head>
+<body>
+		<h1>Form Events events </h1>
+		
+		<h2>focus = when cursor come in input box</h2>
+		<h2>submit = when from submitted</h2>
+
+		<form id="sform">
+			<label>name</label>
+			<input type="text" name="" id="fname"><br>
+			<label>Surname</label>
+			<input type="text" name="" id="lname"><br>
+			<select  id="country">
+				<option value="india">India</option>
+				<option value="new Zealand">New Zealand</option>
+				<option value="france">France</option>
+				<option value="britain">Britain</option>
+			</select>
+			<input type="submit" name="" value="Submit">
+
+		</form>
+
+</body>
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+		// $('#fname,#lanme,#country').focus(function(){
+		// 	$('#fname,#lname,#country').css("background-color","yellow")
+		// });
+		$('#sform').submit(function(){
+			alert("your deatils has been submitted")
+		});
+
+	});
+
+
+
+
+
+
+
+
+</script>
+</html>

@@ -1,0 +1,31 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+
+
+<h1 style="background-color:black; color: red; width: 400px;">This is a paragraph.</h1>
+<h2 style="background-color:black; color: red; width: 400px">This is a paragraph.</h2>
+<h3 style="background-color:black; color: red;width: 400px">This is a paragraph.</h3>
+<h4 style="background-color:black; color: red;width: 400px">this is h4 tag</h4>
+<h5 style="background-color:black; color: red;width: 400px">thi is h5 tag</h5>
+<h6 style="background-color:black; color: red;width: 400px">this is h6 tag</h6>
+
+<button>change multi css</button>
+
+</body>
+<script>
+
+$(document).ready(function(){
+	$("button").click(function(){
+		$("h1,h2,h3,h4,h5,h6").css({
+			"background-color": "blue",
+			"font-size": "40px",
+			"color": "white"
+		});
+	});
+});
+</script>
+</html>

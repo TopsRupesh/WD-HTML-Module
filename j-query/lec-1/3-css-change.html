@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<title>change css using j-query</title>
+	<style type="text/css">
+		#a{
+			width: 100px;
+			height: 100px;
+			background: black;
+		}
+		#b{
+			width: 100px;
+			height: 100px;
+			background: red;
+		}
+		#c{
+			width: 100px;
+			height: 100px;
+			background: blue;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="a"></div>
+	<div id="b"></div>
+	<div id="c"></div>
+	<br><br><br>
+	<button>click here to change background-color</button>
+
+	<br><br><br>
+	<div class="txt">this is j-query</div>
+	<div class="txt1"> this is j-query 1</div>
+	<button id="btn">click here</button>
+
+</body>
+<script type="text/javascript">
+	
+
+		$(document).ready(function(){
+			$('button').click(function(){
+				$('#a').css("background-color","orange")
+				$('#b').css("background-color","white")
+				$('#c').css("background-color","green")
+			});
+		});
+
+
+		$(document).ready(function(){
+			$('#btn').click(function(){
+				$('.txt').css("color","blue")
+				$('.txt1').css("font-size","40px")
+
+			})
+
+		});
+
+
+
+
+
+
+</script>
+</html>
